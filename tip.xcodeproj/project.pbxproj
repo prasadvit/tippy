@@ -14,6 +14,7 @@
 		6EB916A41E73B78F00AE3FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB916A21E73B78F00AE3FED /* LaunchScreen.storyboard */; };
 		6EB916AF1E73B78F00AE3FED /* tipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB916AE1E73B78F00AE3FED /* tipTests.swift */; };
 		6EB916BA1E73B78F00AE3FED /* tipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB916B91E73B78F00AE3FED /* tipUITests.swift */; };
+		6EC20AEA1E777F43008F062C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC20AE91E777F43008F062C /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6EB916B51E73B78F00AE3FED /* tipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB916B91E73B78F00AE3FED /* tipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipUITests.swift; sourceTree = "<group>"; };
 		6EB916BB1E73B78F00AE3FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EC20AE91E777F43008F062C /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		6EB9168D1E73B78F00AE3FED = {
 			isa = PBXGroup;
 			children = (
+				6EC20AE91E777F43008F062C /* SettingsViewController.swift */,
 				6EB916981E73B78F00AE3FED /* tip */,
 				6EB916AD1E73B78F00AE3FED /* tipTests */,
 				6EB916B81E73B78F00AE3FED /* tipUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				6EB9169C1E73B78F00AE3FED /* ViewController.swift in Sources */,
 				6EB9169A1E73B78F00AE3FED /* AppDelegate.swift in Sources */,
+				6EC20AEA1E777F43008F062C /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +509,7 @@
 				6EB916C01E73B78F00AE3FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB916C11E73B78F00AE3FED /* Build configuration list for PBXNativeTarget "tipTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				6EB916C31E73B78F00AE3FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EB916C41E73B78F00AE3FED /* Build configuration list for PBXNativeTarget "tipUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				6EB916C61E73B78F00AE3FED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

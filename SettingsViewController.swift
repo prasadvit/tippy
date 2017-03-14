@@ -10,10 +10,14 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var dropBox: UIPickerView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +26,8 @@ class SettingsViewController: UIViewController {
     }
     
 
+    
+    
     /*
     // MARK: - Navigation
 
