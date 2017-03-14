@@ -145,26 +145,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="J2g-JB-6Ua">
-                                <rect key="frame" x="188" y="97" width="154" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <pickerView tag="3" contentMode="scaleToFill" misplaced="YES" id="ycM-D0-s4M">
-                                <rect key="frame" x="173" y="152" width="169" height="49"/>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" id="ncw-VN-yaV">
+                                <rect key="frame" x="196" y="145" width="124" height="114"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <outlet property="delegate" destination="fT1-ex-bMu" id="Tor-3c-iOQ"/>
+                                    <outlet property="dataSource" destination="fT1-ex-bMu" id="0U4-bW-2Cf"/>
+                                    <outlet property="delegate" destination="fT1-ex-bMu" id="OvX-e6-CpL"/>
                                 </connections>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0H4-az-Rdo">
+                                <rect key="frame" x="224" y="102" width="108" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="p0d-Ih-Th6"/>
                     <connections>
-                        <outlet property="dropBox" destination="ycM-D0-s4M" id="Quy-fr-cpQ"/>
+                        <outlet property="labelTip" destination="0H4-az-Rdo" id="WZQ-ec-CQU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5u4-m8-592" userLabel="First Responder" sceneMemberID="firstResponder"/>

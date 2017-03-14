@@ -17,22 +17,17 @@ class ViewController: UIViewController {
     @IBOutlet  var tipManual: UITextField!
     @IBOutlet weak var customButton: UIButton!
 
-    var _pickerData = @[@"Item 1", @"Item 2", @"Item 3", @"Item 4", @"Item 5", @"Item 6"];
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+  
 
         // Do any additional setup after loading the view, typically from a nib.
     }
  
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return pickerData.count
-    }
-    
-    // The data to return for the row and component (column) that's being passed in
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return pickerData[row]
-    }
+
+
+ 
   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
